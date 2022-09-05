@@ -36,5 +36,5 @@ ethers = { git = "https://github.com/Vineta-K/ethers-rs", default-features = fal
 
 [dev-dependencies]
 tokio = { version = "1.7.1", features = ["macros", "rt-multi-thread"] }
-ethers = { version = "^0.17.0", default-features = false }
+ethers = { git = "https://github.com/Vineta-K/ethers-rs", default-features = false }
 eyre = "0.6"
